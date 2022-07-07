@@ -10,7 +10,8 @@ public class PayTMWallet {
 	@GET
 	@Produces("text/plain")
 	public double getBalance(@QueryParam("mobileNo") String mobileNo) {
-		System.out.println("gpdjdj")
+		int i =12;
+		System.out.println("gpdjdj");
 		return 334.34;
 	}
 }
